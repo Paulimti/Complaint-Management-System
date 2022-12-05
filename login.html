@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Management System</title>
+    <link rel="stylesheet" href="../cmscss/login.css">
+    <link rel="stylesheet" href="">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+	<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+</head>
+<body>
+
+	<header>
+		<a href="#" class="logo"><i class="ri-home-heart-fill"></i><span>CMS</span></a>
+
+		<ul class="navbar">
+			<li><a href="../cmshtml/signup.html" class="active">Home</a></li>
+			<li><a href="../cmshtml/aboutus.html">About Us</a></li>
+			<li><a href="../cmshtml/services.html">Services</a></li>
+			
+			<li><a href="../cmshtml/contact.html">Contact Us</a></li>
+		</ul>
+
+		<div class="main">
+			<a href="../cmshtml/login.html" class="user"><i class="ri-user-fill"></i>Sign In</a>
+			<a href="../cmshtml/signup.html">Register</a>
+			<div class="bx bx-menu" id="menu-icon"></div>
+		</div>
+	</header>
+
+	<!--js link--->
+	<script type="text/javascript" src="../cmsjs/script.js"></script>
+       
+    <div class="center">
+        <h1>Sign In</h1>
+        <form method="post">
+            <div class="txt_field">
+                <input type="text" required>
+                <span></span>
+            <label class="username">Username</label>
+            </div>
+            <div class="txt_field">
+                <input type="password" required>
+                 <span></span>    
+            <label class="password">Password</label>
+            </div>
+            <div class="pass">Forget Password?</div>
+            <button class="btl" type="button" onclick="window.location.href='../cmshtml/dash.html';">Login</button>
+            
+        </form>
+    </div>
+    <script type="text/javascript" src="../cmsjs/valid.js"></script>
+</body>
+</html>

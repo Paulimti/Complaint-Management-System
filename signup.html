@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sign up</title>
+	<link rel="stylesheet" type="text/css" href="../cmscss/signup.css">
+
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+
+	<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+	<header>
+		
+        <a href="#" class="logo"><i class="ri-home-heart-fill"></i><span>CMS</span></a>
+		<ul class="navbar">
+			<li><a href="../cmshtml/signup.html" class="active">Home</a></li>
+			<li><a href="../cmshtml/aboutus.html">About Us</a></li>
+			<li><a href="../cmshtml/services.html">Services</a></li>
+			
+			<li><a href="../cmshtml/contact.html">Contact Us</a></li>
+		</ul>
+        
+
+		<div class="main">
+			<a href="../cmshtml/login.html" class="user"><i class="ri-user-fill"></i>Sign In</a>
+			<a href="../cmshtml/signup.html">Register</a>
+			<div class="bx bx-menu" id="menu-icon"></div>
+		</div>
+	</header>
+
+	
+
+    <div class="main1">
+        <div class="registration">
+            <h2>Register</h2>
+            <form id="engdet" method="post">
+                <label >Engineer's Name: </label>
+                <br>
+                <input type="text" name="fname" id="name" placeholder="Enter Full Name" required>
+                <br><br>
+                <label >Password: </label>
+                <br>
+                <input type="password" name="password" id="name" placeholder="Enter Your Password" required>
+                <br><br>
+                <label >Address: </label>
+                <br>
+                <input type="address" name="address" id="name" placeholder="Enter Adress" style="height:40px" required>
+                <br><br>
+                <label >Email ID: </label>
+                <br>
+                <input type="email" name="email" id="name" placeholder="Enter Your Email address" required>
+                <br><br>
+                <label >Mobile Number: </label>
+                <br>
+                <input type="tel" name="tel" id="name" placeholder="Enter Mobile Number" required>
+                <br><br>
+                <div class="sub">
+                <input type="submit" value="Register" name="submit" id="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--js link--->
+	<script type="text/javascript" src="../cmsjs/script.js"></script>
+</body>
+</html>
